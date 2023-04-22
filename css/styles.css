@@ -5,8 +5,7 @@
   --secondary-text-color: #434455;
   --active-color: #404bbf;
   --button-background: #4d5ae5;
-  /* --background-section: #e5e5e5; */
-}
+  }
 h1,
 h2,
 h3,
@@ -34,13 +33,13 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
-.container {
+/* .container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 img {
   display: block;
@@ -59,7 +58,7 @@ img {
 }
 
 /* ХЕДЕР */
-.page-header {
+/* .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
@@ -151,21 +150,21 @@ img {
   bottom: -28px;
 }
 /* MAIN */
-.section-work {
+/* .section-work {
   padding-bottom: 120px;
-}
+} */
 
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.section {
+/* .section-costumers {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 /* СЕКЦІЯ ГЕРОЙ */
 
-.section-hero {
+/* .section-hero {
   background-color: var(--primary-text-color);
   padding-bottom: 188px;
   padding-top: 188px;
@@ -176,8 +175,8 @@ img {
     url(../images/people-office\ 1.jpg);
   max-width: 1440px;
   margin: 0 auto;
-}
-.main-title {
+} */
+/* .main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -188,8 +187,8 @@ img {
   margin-right: auto;
   margin-bottom: 48px;
   width: 496px;
-}
-.main-btn {
+} */
+/* .main-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -210,12 +209,12 @@ img {
 .main-btn:hover,
 .main-btn:focus {
   background-color: var(--active-color);
-}
+} */
 /* НАША  ПОЛІТИКА */
-.policy-item:not(:last-child) {
+/* .policy-item:not(:last-child) {
   margin-right: 24px;
-}
-.list-our-policy {
+} */
+/* .list-our-policy {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -227,14 +226,14 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.policy-list {
+} */
+/* .policy-list {
   display: flex;
   justify-content: center;
-}
-.policy-item {
+} */
+/* .policy-item {
   width: 264px;
-}
+} 
 .policy-icons {
   width: 264px;
   height: 112px;
@@ -243,11 +242,11 @@ img {
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
-}
+} */
 
 /* СЕКЦІЯ КАРТИНОК, ЩО МИ РОБИМО */
 
-.pictiure-item:not(:last-child) {
+/* .pictiure-item:not(:last-child) {
   margin-right: 24px;
 }
 .work {
@@ -263,11 +262,11 @@ img {
   display: flex;
   margin-top: 72px;
   justify-content: center;
-}
+} */
 /* СЕКЦІЯ НАША КОМАНДА */
-.our-team {
+/* .our-team {
   background-color: #f4f4fd;
-}
+  }
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -276,12 +275,12 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
-}
-.employee-position {
+} */
+/* .employee-position {
   padding-top: 32px;
   padding-bottom: 32px;
-}
-.team-name {
+}  */
+/* .team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -302,16 +301,16 @@ img {
   letter-spacing: 0.02em;
   margin-top: 8px;
   margin-bottom: 8px;
-}
-.team-list {
+} */
+/* .team-list {
   display: flex;
   justify-content: center;
   margin-top: 72px;
   column-gap: 24px;
   margin-left: auto;
   margin-right: auto;
-}
-.social-list {
+}  */
+/* .social-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -333,21 +332,21 @@ img {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--active-color);
-}
+} */
 
 /* ПОКУПЦІ */
-.costumer-list {
+/* .costumer-list {
   display: flex;
   gap: 24px;
-}
-.costumer-item {
+} */
+/* .costumer-item {
   width: 168px;
   height: 88px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.costumer-link {
+} */
+/* .costumer-link {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -363,8 +362,8 @@ img {
 .costumer-link:focus {
   border-color: var(--active-color);
   color: var(--active-color);
-}
-.costumer-icon {
+} */
+/* .costumer-icon {
   width: 104px;
   height: 56px;
   fill: currentColor;
@@ -372,8 +371,8 @@ img {
 .costumer-icon:hover,
 .costumer-icon:focus {
   fill: var(--active-color);
-}
-.costumers {
+} */
+/* .costumers {
   margin-bottom: 72px;
   text-align: center;
   font-weight: 700;
@@ -382,7 +381,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
-}
+} */
 /* MAIN PORTFOLIO */
 
 /* КНОПКИ */
@@ -505,20 +504,20 @@ img {
 }
 /* ФУТЕР */
 
-.footer-portfolio {
+/* .footer-portfolio {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 16px;
   width: 264px;
-}
-.section-footer {
+}  */
+/* .section-footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: var(--primary-text-color);
-}
-.web-footer {
+} */
+/* .web-footer {
   color: #f4f4fd;
 }
 .logo-footer {
@@ -530,43 +529,43 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-background);
-}
-.cont-footer {
+} */
+/* .cont-footer {
   display: flex;
-}
-.media-footer-container {
+} */
+/* .media-footer-container {  
   margin-left: 120px;
   align-items: center;
   margin-right: 80px;
-}
-.footer-social-list {
+} */
+/* .footer-social-list {
   display: flex;
   gap: 16px;
-}
-.footer-media {
+} */
+/* .footer-media {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
- }
+ } */
 .link-footer:hover,
 .link-footer:focus {
   background-color: #31d0aa;
 }
-.footer-subscr{
+/* .footer-subscr{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
-}
-.footer-subscribe{
+} */
+/* .footer-subscribe{
   display: flex;
-  }
-  .footer-user-email{
+  } */
+  /* .footer-user-email{
 background-color: var(--primary-text-color);
 border: 1px solid #FFFFFF;
 box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -579,8 +578,8 @@ font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 padding-left: 16px;
-  }
-.footer-subscr-btn{
+  } */
+/* .footer-subscr-btn{
 display: flex;
 justify-content:space-evenly;
 align-items: center;
@@ -594,8 +593,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
-  }
-  .email-descr{
+  } */
+  /* .email-descr{
     position: absolute;
     color: #FFFFFF;
     font-size: 12px;
@@ -603,19 +602,19 @@ color: #FFFFFF;
     letter-spacing: 0.04em;
     padding-left: 16px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .footer-help{
+  } */
+  /* .footer-help{
     position: relative;
     display: flex;
   align-items: center;
   margin-right: 24px;
-   }
-   .footer-user-email:focus + .email-descr{
+   } */
+   /* .footer-user-email:focus + .email-descr{
     transform: translateX(-120%);
    }
    .footer-user-email:not(:placeholder-shown) + .email-descr{
     transform: translateX(-120%);
-   }
+   } */
 /* МОДАЛЬНЕ ВІКНО */
 .backdrop {
   position: fixed;

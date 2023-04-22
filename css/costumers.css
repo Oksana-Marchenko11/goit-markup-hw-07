@@ -1,0 +1,97 @@
+.section-costumers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .container-costumers{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .costumer-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+      }
+  .costumer-item {
+   width: 190px;
+   height: 88px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+      }
+      .costumer-link {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #8e8f99;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+          border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .costumer-link:hover,
+      .costumer-link:focus {
+        border-color: var(--active-color);
+        color: var(--active-color);
+      }
+      .costumer-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e8f99;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.costumer-link:hover,
+.costumer-link:focus {
+  border-color: var(--active-color);
+  color: var(--active-color);
+}
+.costumer-icon {
+  width: 110px;
+  height: 56px;
+  fill: currentColor;
+}
+.costumer-icon:hover,
+.costumer-icon:focus {
+  fill: var(--active-color);
+}
+.costumers {
+  margin-bottom: 72px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+}
+ /***************************************************************************************** */
+/* ПЛАНШЕТ*/
+@media screen and (min-width: 768px){
+  .costumer-list{
+    column-gap: 24px;
+  }
+  .costumer-item{
+    width: 168px;
+     }
+  .costumer-icon{
+    width: 104px
+  }  
+}
+@media screen and (max-width: 1157px){
+     .costumer-list {row-gap: 72px;
+    flex-wrap: wrap;}}
+  /* **************************************************************************************** */
+/* ДЕСКТОП */
+@media screen and (min-width: 1158px){
+    .section-costumers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+      } 
+}

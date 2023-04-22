@@ -1,0 +1,107 @@
+.section-hero {
+  background-color: var(--primary-text-color);
+  padding-bottom: 112px;
+  padding-top: 112px;
+  background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/adaptiv-bg/bg-mob-1x.jpg);
+  max-width: 1440px;
+  margin: 0 auto;}
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/adaptiv-bg/bg-mob-2x.jpg);
+  }
+}
+    .main-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
+        width: 320px;
+      }
+      .main-btn {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        background: var(--button-background);
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-color: transparent;
+        padding: 16px 32px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .main-btn:hover,
+      .main-btn:focus {
+        background-color: var(--active-color);
+      }
+
+    
+/* **************************************************************************************** */  
+/* МОБІЛКА */
+@media screen and (min-width: 428px){
+  .section-hero {
+    background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/adaptiv-bg/bg-tab-1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/adaptiv-bg/bg-tab-2x.jpg);
+  }}}
+   /* **************************************************************************************** */
+  /* ПЛАНШЕТ*/
+  @media screen and (min-width: 768px){
+    .section-hero {
+      background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/adaptiv-bg/bg-desk-1.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-hero {
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/adaptiv-bg/bg-desk-2x.jpg);
+    }}}
+    /* **************************************************************************************** */
+    /* ДЕСКТОП */
+@media screen and (min-width: 1158px){
+  .section-hero{
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+}
