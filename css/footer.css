@@ -121,7 +121,7 @@ text-align: center;}
 /* ПЛАНШЕТ*/
 @media screen and (min-width: 768px){
 
-    .section-footer{padding-left: 108px;}
+    /* .section-footer{padding-left: 108px;} */
     .footer-portfolio{
         width: 264px;
     }
