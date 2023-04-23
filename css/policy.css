@@ -9,7 +9,9 @@
 .policy-item:not(:last-child) {
        margin-bottom: 72px;}
 .policy-item{
-        width: 356px;}
+        width: 356px;
+      margin-right: auto;
+    margin-left: auto;}
 .list-our-policy {
     font-weight: 700;
     font-size: 36px;

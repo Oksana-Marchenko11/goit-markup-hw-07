@@ -135,7 +135,7 @@ text-align: center;}
     .cont-footer{
       display: flex;
       flex-wrap: wrap;
-          }
+                }
     .footer-subscribe{
       display: flex;
     }
@@ -149,8 +149,7 @@ text-align: center;}
       margin-right: 24px;
       margin-bottom: 0;
     }
-  
-                }
+                  }
 
 
 /* **************************************************************************************** */
