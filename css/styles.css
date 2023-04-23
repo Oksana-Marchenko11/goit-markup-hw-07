@@ -5,7 +5,8 @@
   --secondary-text-color: #434455;
   --active-color: #404bbf;
   --button-background: #4d5ae5;
-  }
+}
+
 h1,
 h2,
 h3,
@@ -14,11 +15,13 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
+
 button {
   cursor: pointer;
 }
@@ -26,13 +29,16 @@ button {
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
+
 /* .container {
   width: 1158px;
   margin-left: auto;
@@ -44,6 +50,7 @@ body {
 img {
   display: block;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -158,6 +165,7 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
 /* .section-costumers {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -393,6 +401,7 @@ img {
   margin-right: auto;
   margin-bottom: 72px;
 }
+
 .btn-menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -416,6 +425,7 @@ img {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .btn-menu:hover,
 .btn-menu:focus {
   color: #ffffff;
@@ -435,22 +445,27 @@ img {
   border-bottom: 1px solid #e7e9fc;
   /* width: 360px; */
 }
+
 .cont-products {
   margin-top: 72px;
 }
+
 .list-item {
   width: 360px;
 }
+
 .border-product {
   width: 360px;
   background: #ffffff;
 }
+
 .products {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
 }
+
 .produts-item {
   font-style: normal;
   font-weight: 500;
@@ -460,21 +475,25 @@ img {
   color: var(--primary-text-color);
   margin-bottom: 8px;
 }
+
 .produts-descriptions {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+
 .product-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .product-link:hover,
 .product-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .product-link:hover .product-top-box,
 .product-link:focus .product-top-box {
   transform: translate(0);
@@ -489,6 +508,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
 .product-top-box {
   position: absolute;
   top: 0;
@@ -498,10 +518,12 @@ img {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .product-top-wrap {
   position: relative;
   overflow: hidden;
 }
+
 /* ФУТЕР */
 
 /* .footer-portfolio {
@@ -554,6 +576,7 @@ img {
 .link-footer:focus {
   background-color: #31d0aa;
 }
+
 /* .footer-subscr{
 font-weight: 500;
 font-size: 16px;
@@ -565,7 +588,7 @@ margin-bottom: 16px;
 /* .footer-subscribe{
   display: flex;
   } */
-  /* .footer-user-email{
+/* .footer-user-email{
 background-color: var(--primary-text-color);
 border: 1px solid #FFFFFF;
 box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -594,7 +617,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
   } */
-  /* .email-descr{
+/* .email-descr{
     position: absolute;
     color: #FFFFFF;
     font-size: 12px;
@@ -603,13 +626,13 @@ color: #FFFFFF;
     padding-left: 16px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   } */
-  /* .footer-help{
+/* .footer-help{
     position: relative;
     display: flex;
   align-items: center;
   margin-right: 24px;
    } */
-   /* .footer-user-email:focus + .email-descr{
+/* .footer-user-email:focus + .email-descr{
     transform: translateX(-120%);
    }
    .footer-user-email:not(:placeholder-shown) + .email-descr{
@@ -625,6 +648,7 @@ color: #FFFFFF;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal {
   width: 408px;
   min-height: 584px;
@@ -640,12 +664,13 @@ color: #FFFFFF;
   padding-top: 72px;
   padding-bottom: 24px;
 }
+
 .modal-close-btn {
   display: flex;
   position: absolute;
   top: 24px;
   right: 24px;
-   border-radius: 50%;
+  border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 24px;
   height: 24px;
@@ -654,6 +679,7 @@ color: #FFFFFF;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: var(--active-color);
@@ -665,9 +691,11 @@ color: #FFFFFF;
   opacity: 0;
   pointer-events: none;
 }
+
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(-90deg);
 }
+
 /* Модалка */
 .modal-title {
   margin-bottom: 16px;
@@ -678,9 +706,11 @@ color: #FFFFFF;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .modal-form {
   margin-bottom: 8px;
 }
+
 .user-form {
   width: 100%;
   height: 40px;
@@ -690,14 +720,17 @@ color: #FFFFFF;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: inherit;
-  }
+}
+
 .user-form:focus {
   border-color: var(--button-background);
 }
-.user-form:focus + .icon-input {
+
+.user-form:focus+.icon-input {
   fill: var(--button-background);
 }
-.user-form-area{
+
+.user-form-area {
   margin-bottom: 16px;
 }
 
@@ -709,9 +742,11 @@ color: #FFFFFF;
   color: #8e8f99;
   margin-bottom: 4px;
 }
+
 .input-wrap {
   position: relative;
 }
+
 .icon-input {
   position: absolute;
   left: 16px;
@@ -720,6 +755,7 @@ color: #FFFFFF;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2E2F42;
 }
+
 .modal-text-user {
   width: 100%;
   height: 120px;
@@ -730,17 +766,19 @@ color: #FFFFFF;
   padding-top: 8px;
   font-weight: 400;
   display: block;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-outline: none;
-transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-text-user:focus{
-border-color: var(--button-background);
+
+.modal-text-user:focus {
+  border-color: var(--button-background);
 }
-.modal-text-user::placeholder{
-  color:  rgba(46, 47, 66, 0.4);
+
+.modal-text-user::placeholder {
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .text-user-description {
@@ -751,24 +789,29 @@ border-color: var(--button-background);
   display: block;
   margin-bottom: 4px;
 }
+
 /* ЧЕКБОКС */
-.check-wrap{
+.check-wrap {
   margin-bottom: 24px;
 }
-.agree-description{
+
+.agree-description {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8E8F99; 
+  color: #8E8F99;
   display: flex;
   align-items: center;
 }
-.privacy-policy{
+
+.privacy-policy {
   /* margin-left: 4px; */
   color: var(--button-background);
 }
+
 .agree-description span {
-  border: 1px solid rgba(46, 47, 66, 0.4);;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  ;
   border-radius: 2px;
   width: 16px;
   height: 16px;
@@ -777,39 +820,41 @@ border-color: var(--button-background);
   justify-content: center;
   margin-right: 8px;
   fill: transparent;
-  }
-  .input-check:checked + .agree-description span{
-    background-color: var(--active-color);
-    border-color: var(--active-color);
-    fill:rgba(244, 244, 253, 1);
-  }
-  .visually-hidden {
-    position: absolute;
-      white-space: nowrap;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-      border: 0;
-      padding: 0;
-      clip: rect(0 0 0 0);
-      clip-path: inset(50%);
-      margin: -1px;
-  }
+}
+
+.input-check:checked+.agree-description span {
+  background-color: var(--active-color);
+  border-color: var(--active-color);
+  fill: rgba(244, 244, 253, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 /* Кнопка модальна велика*/
-.modal-submit-button{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background-color: var(--button-background);
-display: block;
-margin: 0 auto;
-width: 169px;
-height: 56px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border-color: transparent;
+.modal-submit-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background-color: var(--button-background);
+  display: block;
+  margin: 0 auto;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: transparent;
 }

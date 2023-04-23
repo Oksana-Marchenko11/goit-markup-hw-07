@@ -1,84 +1,111 @@
-.section-policy{
-    padding-top: 96px;
-    padding-bottom: 96px;
+.section-policy {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
-.policy-icons{
-    display: none;
+
+.policy-icons {
+  display: none;
 }
+
 .policy-item:not(:last-child) {
- margin-bottom: 72px;}
-.policy-item{
-width: 356px;}
-.list-our-policy {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    margin-bottom: 8px;
-    text-align: center;
-  }
-  .descr-our-policy {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
+
+.policy-item {
+  width: 356px;
+}
+
+@media screen and (max-width: 428px) {
+  .policy-item {
+    width: 290px;
+  }
+}
+
+.list-our-policy {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.descr-our-policy {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* **************************************************************************************** */
 /* ПЛАНШЕТ*/
-@media screen and (min-width: 768px){
-.policy-list {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;}
-        
+@media screen and (min-width: 768px) {
+  .policy-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
 }
+
 /* **************************************************************************************** */
 /* ДЕСКТОП */
 
-@media screen and (min-width: 1200px){
-.section-policy{
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.policy-list {
-justify-content: center;
-flex-wrap: nowrap;
-}
-.policy-item:not(:last-child) {
+@media screen and (min-width: 1200px) {
+  .section-policy {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .policy-list {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .policy-item:not(:last-child) {
     margin-right: 24px;
-}
-.policy-item {
+  }
+
+  .policy-item {
     width: 264px;
-  } 
-.policy-icons {
- width: 264px;
- height: 112px;
- background-color: #f4f4fd;
- display: flex;
- align-items: center;
- justify-content: center;
- margin-bottom: 8px;
-  } 
-.list-our-policy {
-  font-size: 20px;
-  line-height: 1.2;
- }
+  }
+
+  .policy-icons {
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  .list-our-policy {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
   .descr-our-policy {
     font-weight: 400;
-     }
+  }
 }
 
 /* СЕКЦІЯ КАРТИНОК, ЩО МИ РОБИМО  */
-@media screen and (max-width: 1199px){
-.section-work{display: none;}
+@media screen and (max-width: 1199px) {
+  .section-work {
+    display: none;
+  }
 }
+
 .section-work {
   padding-bottom: 120px;
 }
+
 .pictiure-item:not(:last-child) {
   margin-right: 24px;
 }
+
 .work {
   font-weight: 700;
   font-size: 36px;
@@ -88,6 +115,7 @@ flex-wrap: nowrap;
   text-transform: capitalize;
   color: var(--primary-text-color);
 }
+
 .work-list {
   display: flex;
   margin-top: 72px;
