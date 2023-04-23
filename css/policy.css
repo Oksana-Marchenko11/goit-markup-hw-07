@@ -2,16 +2,13 @@
     padding-top: 96px;
     padding-bottom: 96px;
 }
-.policy-list{margin-right: 0;}
 .policy-icons{
     display: none;
 }
 .policy-item:not(:last-child) {
-       margin-bottom: 72px;}
+ margin-bottom: 72px;}
 .policy-item{
-        width: 356px;
-      margin-right: auto;
-    margin-left: auto;}
+width: 356px;}
 .list-our-policy {
     font-weight: 700;
     font-size: 36px;
@@ -31,15 +28,15 @@
 /* ПЛАНШЕТ*/
 @media screen and (min-width: 768px){
 .policy-list {
-        display: flex;
-        flex-wrap: wrap;
-    justify-content: space-between;}
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;}
         
 }
 /* **************************************************************************************** */
 /* ДЕСКТОП */
 
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1200px){
 .section-policy{
   padding-top: 120px;
   padding-bottom: 120px;
@@ -48,38 +45,32 @@
 justify-content: center;
 flex-wrap: nowrap;
 }
-
 .policy-item:not(:last-child) {
     margin-right: 24px;
 }
 .policy-item {
     width: 264px;
   } 
-  .policy-icons {
-    width: 264px;
-    height: 112px;
-    background-color: #f4f4fd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8px;
+.policy-icons {
+ width: 264px;
+ height: 112px;
+ background-color: #f4f4fd;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 8px;
   } 
 .list-our-policy {
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--primary-text-color);
-    margin-bottom: 8px;
-  }
+  font-size: 20px;
+  line-height: 1.2;
+ }
   .descr-our-policy {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
+     }
 }
 
 /* СЕКЦІЯ КАРТИНОК, ЩО МИ РОБИМО  */
-@media screen and (max-width: 1157px){
+@media screen and (max-width: 1199px){
 .section-work{display: none;}
 }
 .section-work {

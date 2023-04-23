@@ -2,11 +2,7 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .container-costumers{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .costumer-list {
+    .costumer-list {
     display: flex;
     justify-content: center;
     column-gap: 16px;
@@ -84,12 +80,12 @@
     width: 104px
   }  
 }
-@media screen and (max-width: 1157px){
+@media screen and (max-width: 1199px){
      .costumer-list {row-gap: 72px;
     flex-wrap: wrap;}}
   /* **************************************************************************************** */
 /* ДЕСКТОП */
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1200px){
     .section-costumers {
         padding-top: 120px;
         padding-bottom: 120px;

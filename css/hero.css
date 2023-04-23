@@ -1,3 +1,4 @@
+
 .section-hero {
   background-color: var(--primary-text-color);
   padding-bottom: 112px;
@@ -99,7 +100,7 @@
     }}}
     /* **************************************************************************************** */
     /* ДЕСКТОП */
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1200px){
   .section-hero{
     padding-top: 188px;
     padding-bottom: 188px;
