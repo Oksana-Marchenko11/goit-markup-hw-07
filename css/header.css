@@ -179,6 +179,7 @@
   padding-top: 80px;
   padding-left: 40px;
   padding-bottom: 40px;
+  padding-right: 35px;
   z-index: 1000;
   background-color: #F4F4FD;
 }
@@ -237,6 +238,13 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+@media screen and (max-width: 427px) {
+  .nav-adress-link-mob {
+    font-size: 24px;
+  }
+}
+
 .nav-adress-link-mob:hover,
 .nav-adress-link-mob:focus {
   color: var(--active-color);
@@ -263,6 +271,12 @@
 
 .mob-social-item:not(:last-child) {
   margin-right: 56px;
+}
+
+@media screen and (max-width: 427px) {
+  .mob-social-item:not(:last-child) {
+    margin-right: 36px;
+  }
 }
 
 .mob-social-item {

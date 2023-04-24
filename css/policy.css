@@ -12,13 +12,7 @@
 }
 
 .policy-item {
-  width: 356px;
-}
-
-@media screen and (max-width: 428px) {
-  .policy-item {
-    width: 290px;
-  }
+  max-width: 356px;
 }
 
 .list-our-policy {
