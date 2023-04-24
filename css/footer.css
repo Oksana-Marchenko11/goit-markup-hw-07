@@ -143,11 +143,11 @@
 }
 
 .footer-user-email:focus+.email-descr {
-  transform: translateX(-120%);
+  transform: translateY(-120%);
 }
 
 .footer-user-email:not(:placeholder-shown)+.email-descr {
-  transform: translateX(-120%);
+  transform: translateY(-120%);
 }
 
 /* **************************************************************************************** */
@@ -198,6 +198,14 @@
   .cont-footer {
     padding-left: 108px;
     padding-right: 0;
+  }
+
+  .footer-user-email:focus+.email-descr {
+    transform: translateX(-120%);
+  }
+
+  .footer-user-email:not(:placeholder-shown)+.email-descr {
+    transform: translateX(-120%);
   }
 }
 

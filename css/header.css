@@ -30,6 +30,21 @@
   }
 }
 
+.logo-heder {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-background);
+}
+
+.web {
+  color: var(--primary-text-color);
+}
+
 /* **************************************************************************************** */
 /* ПЛАНШЕТ*/
 @media screen and (min-width: 768px) {
@@ -45,6 +60,22 @@
   .navigations {
     display: flex;
     align-items: center;
+  }
+
+  .menu-link {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--active-color);
   }
 
   .logo-heder {
@@ -73,6 +104,22 @@
   .nav-adress-mail {
     margin-bottom: 12px;
   }
+
+  .active {
+    position: relative;
+    color: var(--active-color);
+  }
+
+  .active::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--active-color);
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+  }
 }
 
 /* **************************************************************************************** */
@@ -89,58 +136,14 @@
   }
 
   .nav-adress-link {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .nav-adress-link:hover,
-  .nav-adress-link:focus {
-    color: var(--active-color);
+  .active::after {
+    bottom: -26px;
   }
 }
-
-/* **************************************************************************************** */
-/* СПІЛЬНІ СТИЛІ */
-
-/* ЛОГОТИП */
-.logo-heder {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--button-background);
-}
-
-.web {
-  color: var(--primary-text-color);
-}
-
-/* **************************************************************************************** */
-/* СПІЛЬНІ СТИЛІ ПЛАНШЕТУ І ДЕСКТОПУ */
-.menu-link {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--active-color);
-}
-
 
 /* **************************************************************************************** */
 /* КНОПКА ВІДКР МОБ. МЕНЮ */
