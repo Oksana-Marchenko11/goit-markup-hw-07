@@ -10,27 +10,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
+  <title>WEBSTUDIO</title>
   <link rel="stylesheet" href="./css/styles.css" />
-  <title>Portfolio</title>
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 
 <body>
+  <!-- ХЕДЕР -->
   <header class="page-header">
     <div class="container container-header">
+      <!-- НАВІГАЦІЯ -->
       <nav class="navigations">
         <a class="logo-heder link" href="">Web<span class="web">Studio</span></a>
         <ul class="list menu">
           <li class="menu-item">
-            <a class="link menu-link" href="./index.html">Studio</a>
+            <a class="link menu-link active" href="./index.html">Studio</a>
           </li>
           <li class="menu-item">
-            <a class="link menu-link active" href="./portfolio.html">Portfolio</a>
+            <a class="link menu-link" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="menu-item">
             <a class="link menu-link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
+      <!-- АДРЕСА -->
       <address class="nav-cont">
         <ul class="nav-adress list">
           <li class="nav-adress-mail">
@@ -41,8 +47,63 @@
           </li>
         </ul>
       </address>
+      <button type="button" data-menu-open class="mobile-menu-open"><svg class="mobile-menu-icon" width="32"
+          height="22">
+          <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+        </svg></button>
+      <!-- МОБІЛЬНЕ МЕНЮ -->
+      <div class="mobile-menu is-hidden" data-menu>
+        <button type="button" data-menu-close class="mobile_menu-close-btn"><svg class="mobile_menu-close-icon"
+            width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg></button>
+        <div class="nav-men">
+          <nav class="navigations-mob">
+            <ul class="list menu-mob">
+              <li class="menu-item-mob">
+                <a class="link menu-link-mob active" href="./index.html">Studio</a>
+              </li>
+              <li class="menu-item-mob">
+                <a class="link menu-link-mob" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="menu-item-mob">
+                <a class="link menu-link-mob" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <address class="nav-cont-mob">
+            <ul class="nav-adress-mob list">
+              <li class="nav-adress-tel-mob">
+                <a class="nav-adress-link-mob link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+              <li class="nav-adress-mail">
+                <a class="nav-mail-link-mob link mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-social-list">
+            <li class="mob-social-item list"><a class="mob-social-link link-footer" href=""><svg class="social-icon"
+                  width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg></a></li>
+            <li class="mob-social-item list"><a class="mob-social-link link-footer" href=""><svg class="social-icon"
+                  width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg></a></li>
+            <li class="mob-social-item list"><a class="mob-social-link link-footer" href=""><svg class="social-icon"
+                  width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg></a></li>
+            <li class="mob-social-item list"><a class="mob-social-link link-footer" href=""><svg class="social-icon"
+                  width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-
   </header>
   <main>
     <section class="section-portfolio">
@@ -58,8 +119,16 @@
         <ul class="list products">
           <li class="border-product">
             <a class="link product-link" href="">
-              <div class="product-top-wrap"><img src="./images/banking-app.jpg" width="360" height="300"
-                  alt="Banking App" />
+              <div class="product-top-wrap">
+                <picture>
+                  <source srcset="./images/port-desk/port-desk1-1x.jpg 1x, ./images/port-desk/port-desk1-2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./images/port-tab/port-tab1-1x.jpg 1x, ./images/port-tab/port-tab1-2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./images/port-mobile/port-mob1-1x.jpg 1x, ./images/port-mobile/port-mob1-2x.jpg 2x"
+                    media="(max-width: 767px)">
+                  <img src="./images/banking-app.jpg" width="360" height="300" alt="Banking App" />
+                </picture>
                 <div class="product-top-box">
                   <p class="product-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie
@@ -93,8 +162,16 @@
           </li>
           <li class="border-product">
             <a class="link product-link" href="">
-              <div class="product-top-wrap"><img src="./images/meditation-app.jpg" width="360" height="300"
-                  alt="Meditation App" />
+              <div class="product-top-wrap">
+                <picture>
+                  <source srcset="./images/port-desk/port-desk3-1x.jpg 1x, ./images/port-desk/port-desk3-2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./images/port-tab/port-tab3-1x.jpg 1x, ./images/port-tab/port-tab3-2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./images/port-mobile/port-mob3-1x.jpg 1x, ./images/port-mobile/port-mob3-2x.jpg 2x"
+                    media="(max-width: 767px)">
+                  <img src="./images/port-desk/port-desk3-1x.jpg" width="360" height="300" alt="Meditation App" />
+                </picture>
                 <div class="product-top-box">
                   <p class="product-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie
@@ -106,12 +183,21 @@
                 <h2 class="produts-item">Meditation App</h2>
                 <p class="produts-descriptions">App</p>
               </div>
-
             </a>
+
           </li>
           <li class="border-product">
             <a class="link product-link" href="">
-              <div class="product-top-wrap"><img src="./images/taxi.jpg" width="360" height="300" alt="Taxi Service" />
+              <div class="product-top-wrap">
+                <picture>
+                  <source srcset="./images/port-desk/port-desk4-1x.jpg 1x, ./images/port-desk/port-desk4-2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./images/port-tab/port-tab4-1x.jpg 1x, ./images/port-tab/port-tab4-2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./images/port-mobile/port-mob4-1x.jpg 1x, ./images/port-mobile/port-mob4-2x.jpg 2x"
+                    media="(max-width: 767px)">
+                  <img src="./images/port-desk/port-desk4-1x.jpg" width="360" height="300" alt="Taxi Service" />
+                </picture>
                 <div class="product-top-box">
                   <p class="product-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie
@@ -119,18 +205,24 @@
                     Cloud Storage App</p>
                 </div>
               </div>
-
               <div class="product-names">
                 <h2 class="produts-item">Taxi Service</h2>
                 <p class="produts-descriptions">Marketing</p>
               </div>
-
             </a>
           </li>
           <li class="border-product">
             <a class="link product-link" href="">
-              <div class="product-top-wrap"><img src="./images/screen.jpg" width="360" height="300"
-                  alt="Screen Illustrations" />
+              <div class="product-top-wrap">
+                <picture>
+                  <source srcset="./images/port-desk/port-desk5-1x.jpg 1x, ./images/port-desk/port-desk5-2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./images/port-tab/port-tab5-1x.jpg 1x, ./images/port-tab/port-tab5-2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./images/port-mobile/port-mob5-1x.jpg 1x, ./images/port-mobile/port-mob5-2x.jpg 2x"
+                    media="(max-width: 767px)">
+                  <img src="./images/port-desk/port-desk5-1x.jpg" width="360" height="300" alt="Screen Illustrations" />
+                </picture>
                 <div class="product-top-box">
                   <p class="product-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie
@@ -146,8 +238,16 @@
           </li>
           <li class="border-product">
             <a class="link product-link" href="">
-              <div class="product-top-wrap"><img src="./images/online-courses.jpg" width="360" height="300"
-                  alt="Online Courses" />
+              <div class="product-top-wrap">
+                <picture>
+                  <source srcset="./images/port-desk/port-desk6-1x.jpg 1x, ./images/port-desk/port-desk6-2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./images/port-tab/port-tab6-1x.jpg 1x, ./images/port-tab/port-tab6-2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./images/port-mobile/port-mob6-1x.jpg 1x, ./images/port-mobile/port-mob6-2x.jpg 2x"
+                    media="(max-width: 767px)">
+                  <img src="./images/port-desk/port-desk6-1x.jpg" width="360" height="300" alt="Online Courses" />
+                </picture>
                 <div class="product-top-box">
                   <p class="product-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie
@@ -163,8 +263,16 @@
           </li>
           <li class="border-product">
             <a class="link product-link" href="">
-              <div class="product-top-wrap"><img src="./images/instagram.jpg" width="360" height="300"
-                  alt="Instagram" />
+              <div class="product-top-wrap">
+                <picture>
+                  <source srcset="./images/port-desk/port-desk7-1x.jpg 1x, ./images/port-desk/port-desk7-2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./images/port-tab/port-tab7-1x.jpg 1x, ./images/port-tab/port-tab7-2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./images/port-mobile/port-mob7-1x.jpg 1x, ./images/port-mobile/port-mob7-2x.jpg 2x"
+                    media="(max-width: 767px)">
+                  <img src="./images/port-desk/port-desk7-1x.jpg" width="360" height="300" alt="Instagram" />
+                </picture>
                 <div class="product-top-box">
                   <p class="product-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie
@@ -180,7 +288,16 @@
           </li>
           <li class="border-product">
             <a class="link product-link" href="">
-              <div class="product-top-wrap"><img src="./images/food.jpg" width="360" height="300" alt="Organic Food" />
+              <div class="product-top-wrap">
+                <picture>
+                  <source srcset="./images/port-desk/port-desk8-1x.jpg 1x, ./images/port-desk/port-desk8-2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./images/port-tab/port-tab8-1x.jpg 1x, ./images/port-tab/port-tab8-2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./images/port-mobile/port-mob8-1x.jpg 1x, ./images/port-mobile/port-mob8-2x.jpg 2x"
+                    media="(max-width: 767px)">
+                  <img src="./images/port-desk/port-desk8-1x.jpg" width="360" height="300" alt="Organic Food" />
+                </picture>
                 <div class="product-top-box">
                   <p class="product-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie
@@ -196,7 +313,17 @@
           </li>
           <li class="border-product">
             <a class="link product-link" href="">
-              <div class="product-top-wrap"><img src="./images/cofee.jpg" width="360" height="300" alt="Fresh Coffee" />
+              <div class="product-top-wrap">
+                <picture>
+                  <source srcset="./images/port-desk/port-desk9-1x.jpg 1x, ./images/port-desk/port-desk9-2x.jpg 2x"
+                    media="(min-width: 1200px)">
+                  <source srcset="./images/port-tab/port-tab9-1x.jpg 1x, ./images/port-tab/port-tab9-2x.jpg 2x"
+                    media="(min-width: 768px)">
+                  <source srcset="./images/port-mobile/port-mob9-1x.jpg 1x, ./images/port-mobile/port-mob9-2x.jpg 2x"
+                    media="(max-width: 767px)">
+                  <img src="./images/banking-app.jpg" width="360" height="300" alt="Fresh Coffee" />
+                </picture>
+
                 <div class="product-top-box">
                   <p class="product-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie
@@ -217,43 +344,51 @@
   </main>
   <!-- ФУТЕР -->
   <footer class="section-footer">
-    <div class="container cont-footer">
-      <div><a class="link logo-footer" href="">Web<span class="web-footer">Studio</span></a>
-        <p class="footer-portfolio">
-          Increase the flow of customers and sales for your business with digital
-          marketing & growth solutions.
-        </p>
+    <div class="cont-footer">
+      <div class="footer-part">
+        <div class="footer-descr"><a class="link logo-footer" href="">Web<span class="web-footer">Studio</span></a>
+          <p class="footer-portfolio">
+            Increase the flow of customers and sales for your business with digital
+            marketing & growth solutions.
+          </p>
+        </div>
+        <div class="media-footer-container">
+          <p class="footer-media">Social media</p>
+          <ul class="footer-social-list">
+            <li class="social-item list"><a class="social-link link-footer" href=""><svg class="social-icon" width="24"
+                  height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg></a></li>
+            <li class="social-item list"><a class="social-link link-footer" href=""><svg class="social-icon" width="24"
+                  height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg></a></li>
+            <li class="social-item list"><a class="social-link link-footer" href=""><svg class="social-icon" width="24"
+                  height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg></a></li>
+            <li class="social-item list"><a class="social-link link-footer" href=""><svg class="social-icon" width="24"
+                  height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="media-footer-container">
-        <p class="footer-media">Social media</p>
-        <ul class="footer-social-list">
-          <li class="social-item list"><a class="social-link link-footer" href=""><svg class="social-icon" width="24"
-                height="24">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg></a></li>
-          <li class="social-item list"><a class="social-link link-footer" href=""><svg class="social-icon" width="24"
-                height="24">
-                <use href="./images/icons.svg#icon-twitter-1"></use>
-              </svg></a></li>
-          <li class="social-item list"><a class="social-link link-footer" href=""><svg class="social-icon" width="24"
-                height="24">
-                <use href="./images/icons.svg#icon-facebook-1"></use>
-              </svg></a></li>
-          <li class="social-item list"><a class="social-link link-footer" href=""><svg class="social-icon" width="24"
-                height="24">
-                <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg></a></li>
-        </ul>
-      </div>
+
       <!-- інпут-->
-      <div class="footer-subscr-wrap"><p class="footer-subscr">Subscribe</p>
-        <form><div class="footer-subscribe"><label class="footer-help"><input class="footer-user-email" type="email" name="user-email-footer" placeholder=" "><span class="email-descr">E-mail</span></label>
+      <div class="footer-subscr-wrap">
+        <p class="footer-subscr">Subscribe</p>
+        <form class="footer-subscribe"><label class="footer-help"><input class="footer-user-email" type="email"
+              name="user-email-footer" placeholder=" "><span class="email-descr">E-mail</span></label>
           <button class="footer-subscr-btn" type="submit">Subscribe <svg width="24" height="24">
-           <use href="./images/icons.svg#icon-frame"></use>
-          </svg></button></div>
-             </form></div>
+              <use href="./images/icons.svg#icon-frame"></use>
+            </svg></button>
+        </form>
+      </div>
     </div>
   </footer>
+  <script src="./js/modal.js" type="module"></script>
+  <script src="./js/mobile-menu.js" type="module"></script>
 </body>
 
 </html>
