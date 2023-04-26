@@ -20,6 +20,8 @@
 
 /* **************************************************************************************** */
 /* МОБІЛКА */
+
+
 .menu {
   display: none;
 }
@@ -176,6 +178,8 @@
 }
 
 /* МОБІЛЬНЕ МЕНЮ */
+
+
 .mobile-menu {
   position: fixed;
   width: 100vw;
@@ -191,6 +195,10 @@
   padding-right: 35px;
   z-index: 1000;
   background-color: #F4F4FD;
+}
+
+.mob-nav {
+  margin-bottom: 100px;
 }
 
 .mobile_menu-close-btn {
@@ -239,7 +247,7 @@
 .nav-adress-link-mob {
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -247,16 +255,21 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mob-social-item:not(:last-child) {
+  margin-right: 36px;
+}
 
-@media screen and (max-width: 427px) {
+@media screen and (min-width: 428px) {
   .nav-adress-link-mob {
-    font-size: 24px;
+    font-size: 36px;
   }
 
   .mob-social-item:not(:last-child) {
-    margin-right: 36px;
+    margin-right: 56px;
   }
 }
+
+
 
 .nav-adress-link-mob:hover,
 .nav-adress-link-mob:focus {
@@ -281,11 +294,6 @@
 .mob-social-list {
   display: flex;
 }
-
-.mob-social-item:not(:last-child) {
-  margin-right: 56px;
-}
-
 
 .mob-social-item {
   height: 40px;
