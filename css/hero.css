@@ -33,7 +33,7 @@
   width: 320px;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 427px) {
   .main-title {
     font-size: 30px;
     width: 290px;

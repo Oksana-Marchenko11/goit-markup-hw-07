@@ -20,15 +20,14 @@
 
 /* **************************************************************************************** */
 /* МОБІЛКА */
-@media screen and (max-width: 767px) {
-  .menu {
-    display: none;
-  }
-
-  .nav-cont {
-    display: none;
-  }
+.menu {
+  display: none;
 }
+
+.nav-cont {
+  display: none;
+}
+
 
 .logo-heder {
   font-family: "Raleway", sans-serif;
@@ -55,6 +54,10 @@
   .menu {
     display: flex;
     align-items: center;
+  }
+
+  .nav-cont {
+    display: block;
   }
 
   .navigations {
@@ -249,6 +252,10 @@
   .nav-adress-link-mob {
     font-size: 24px;
   }
+
+  .mob-social-item:not(:last-child) {
+    margin-right: 36px;
+  }
 }
 
 .nav-adress-link-mob:hover,
@@ -279,11 +286,6 @@
   margin-right: 56px;
 }
 
-@media screen and (max-width: 427px) {
-  .mob-social-item:not(:last-child) {
-    margin-right: 36px;
-  }
-}
 
 .mob-social-item {
   height: 40px;
