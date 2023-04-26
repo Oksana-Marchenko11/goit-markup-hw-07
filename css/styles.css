@@ -648,6 +648,16 @@ color: #FFFFFF;
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0) rotate(-90deg);
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal {
   width: 392px;
   min-height: 584px;
@@ -672,6 +682,7 @@ color: #FFFFFF;
   }
 }
 
+
 .modal-close-btn {
   display: flex;
   position: absolute;
@@ -693,17 +704,7 @@ color: #FFFFFF;
   fill: #ffffff;
 }
 
-.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0) rotate(-90deg);
-}
-
-/* Модалка */
+/* Стилі Модалки */
 .modal-title {
   margin-bottom: 16px;
   font-weight: 500;
@@ -812,7 +813,6 @@ color: #FFFFFF;
 }
 
 .privacy-policy {
-  /* margin-left: 4px; */
   color: var(--button-background);
 }
 

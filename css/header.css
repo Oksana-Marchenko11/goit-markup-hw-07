@@ -197,8 +197,9 @@
   background-color: #F4F4FD;
 }
 
+
 .mob-nav {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .mobile_menu-close-btn {
@@ -268,8 +269,6 @@
     margin-right: 56px;
   }
 }
-
-
 
 .nav-adress-link-mob:hover,
 .nav-adress-link-mob:focus {
