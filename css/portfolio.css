@@ -1,3 +1,22 @@
+.section-portfolio {
+    padding-top: 46px;
+    padding-bottom: 96px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-portfolio {
+        padding-top: 46px;
+        padding-bottom: 96px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-portfolio {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
 /* КНОПКИ */
 .butums {
     display: flex;

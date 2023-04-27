@@ -161,10 +161,6 @@ img {
   padding-bottom: 120px;
 } */
 
-.section-portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
 
 /* .section-costumers {
   padding-top: 120px;
@@ -651,6 +647,7 @@ color: #FFFFFF;
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(-90deg);
 }
+
 
 .is-hidden {
   visibility: hidden;
