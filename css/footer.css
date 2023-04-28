@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 768px) {
   .cont-footer {
-    max-width: 768px;
+    max-width: 582px;
   }
 }
 
@@ -224,20 +224,6 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .cont-footer {
-    padding-left: 108px;
-    padding-right: 0;
-  }
-
-  .footer-user-email:focus+.email-descr {
-    transform: translateX(-120%);
-  }
-
-  .footer-user-email:not(:placeholder-shown)+.email-descr {
-    transform: translateX(-120%);
-  }
-}
 
 
 /* **************************************************************************************** */

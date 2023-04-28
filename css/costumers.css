@@ -6,11 +6,14 @@
 .costumer-list {
   display: flex;
   justify-content: center;
-  column-gap: 16px;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 72px;
+
 }
 
 .costumer-item {
-  width: 190px;
+  width: 139px;
   height: 88px;
   display: flex;
   justify-content: center;
@@ -77,10 +80,28 @@
   color: var(--primary-text-color);
 }
 
+@media screen and (min-width: 428px) {
+  .costumer-list {
+    width: 396px;
+    column-gap: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .costumer-item {
+    width: 190px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /***************************************************************************************** */
 /* ПЛАНШЕТ*/
 @media screen and (min-width: 768px) {
   .costumer-list {
+    width: 552px;
     column-gap: 24px;
   }
 
@@ -93,18 +114,15 @@
   }
 }
 
-@media screen and (max-width: 1199px) {
-  .costumer-list {
-    row-gap: 72px;
-    flex-wrap: wrap;
-  }
-}
-
 /* **************************************************************************************** */
 /* ДЕСКТОП */
 @media screen and (min-width: 1200px) {
   .section-costumers {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .costumer-list {
+    width: 100%;
   }
 }
