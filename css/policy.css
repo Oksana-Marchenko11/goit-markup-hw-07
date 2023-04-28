@@ -82,6 +82,8 @@
     height: 112px;
     background-color: #f4f4fd;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 8px;
   }
 
