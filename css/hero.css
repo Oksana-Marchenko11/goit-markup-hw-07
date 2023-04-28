@@ -5,12 +5,12 @@
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
     url(../images/adaptiv-bg/bg-mob-1x.jpg);
-  max-width: 1440px;
-  margin: 0 auto;
+  max-width: 1400px;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .section-hero {
@@ -74,7 +74,6 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .section-hero {
@@ -95,7 +94,6 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .section-hero {
