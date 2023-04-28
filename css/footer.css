@@ -134,9 +134,12 @@
   text-align: center;
 }
 
+.footer-part {
+  margin-bottom: 72px;
+}
+
 .media-footer-container {
   width: 208px;
-  margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -176,11 +179,9 @@
 @media screen and (min-width: 768px) {
   .footer-part {
     display: flex;
-    margin-bottom: 72px;
   }
 
   .media-footer-container {
-    margin-bottom: 0;
     text-align: left;
   }
 

@@ -104,6 +104,13 @@
         url(../images/adaptiv-bg/bg-desk-2x.jpg);
     }
   }
+
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    width: 496px;
+  }
 }
 
 /* **************************************************************************************** */
@@ -112,5 +119,9 @@
   .section-hero {
     padding-top: 188px;
     padding-bottom: 188px;
+  }
+
+  .main-title {
+    margin-bottom: 48px;
   }
 }
