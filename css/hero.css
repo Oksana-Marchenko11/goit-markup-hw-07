@@ -6,6 +6,7 @@
       rgba(46, 47, 66, 0.7)),
     url(../images/adaptiv-bg/bg-mob-1x.jpg);
   max-width: 1400px;
+  margin: 0 auto;
   background-size: cover;
   background-position: center;
 }

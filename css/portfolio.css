@@ -1,11 +1,11 @@
 .section-portfolio {
-    padding-top: 46px;
-    padding-bottom: 96px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 @media screen and (min-width: 768px) {
     .section-portfolio {
-        padding-top: 46px;
+        padding-top: 64px;
         padding-bottom: 96px;
     }
 }
@@ -13,7 +13,7 @@
 @media screen and (min-width: 768px) {
     .section-portfolio {
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 120px;
     }
 }
 
