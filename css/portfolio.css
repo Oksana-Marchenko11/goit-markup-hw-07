@@ -3,6 +3,12 @@
     padding-bottom: 48px;
 }
 
+@media screen and (max-width: 427px) {
+    img {
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .section-portfolio {
         padding-top: 64px;
